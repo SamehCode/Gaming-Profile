@@ -1,0 +1,209 @@
+:root {
+    --main-color: #009688;
+    --alternative-color: #e91e63;
+    --alt-color-2: #008000;
+    --heading-bckcolor: #607d8b;
+    --heading-color: #fbffff;
+    --breakline-color: #ededed;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.fog {
+    position: relative;
+    background-color: rgb(241 239 236 / 98%);
+    opacity: .4;
+}
+.profile {
+    background-color: #f5f5f5;
+}
+/* Start Heading */
+.profile .heading {
+    display: flex;
+    gap: 3px;
+    margin: 20px;
+    position: relative;
+}
+.profile .heading .title {
+    flex-basis: 20%;
+    background-color: white;
+    padding: 20px 15px;
+}
+.profile .title img {
+    width: 100px;
+    margin: auto;
+    display: block;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+    padding: 2px;
+    position: relative;
+}
+.profile .title h3 {
+    margin: 10px auto;
+    width: fit-content;
+    font-size: 22px;
+    color: #673ab7;
+}
+.profile .title .bar {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 15px;
+    position: relative;
+    border-radius: 0 6px 6px 0;
+}
+.profile .title .bar span {
+    background-color: var(--main-color);
+    height: 100%;
+    position: absolute;
+    border-radius: 6px 0 0 6px;
+}
+.profile .title p.title {
+    color: #777;
+    font-size: 14px;
+    margin: 0 0 -20px;
+}
+.profile .title p.title span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+.profile .heading .data {
+    background-color: white;
+    padding: 15px 10px;
+    flex: 1;
+}
+.profile .heading .data h1 {
+    margin: 0;
+    font-weight: 600;
+    color: #3f51b5;
+}
+.profile .heading .data p {
+    color: #777;
+    line-height: 2;
+    padding-right: 15px;
+}
+.profile .heading .data span {
+    color: #777;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+/* End Heading */
+/* Start Points */
+.points {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+}
+.points h2 {
+    margin: 0;
+    background-color: var(--heading-bckcolor);
+    width: fit-content;
+    padding: 10px;
+    color: var(--heading-color);
+    font-size: 22px;
+}
+.points .info p.line {
+    padding: 10px;
+    color: #777;
+}
+.points .info p.line:not(:last-child) {
+    border-bottom: 1px solid var(--breakline-color);
+}
+.points .info p.line span:first-child {
+    color: var(--main-color);
+    font-weight: 600;
+}
+.points .info p.line span:last-child {
+    color: var(--alternative-color);
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+/* End Points */
+/* Start Trophies */
+.trophies {
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+}
+.trophies h2 {
+    background-color: var(--heading-bckcolor);
+    color: var(--heading-color);
+    padding: 10px;
+    width: fit-content;
+}
+.trophies .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+}
+.trophies img {
+    flex-basis: 7%;
+    width: 80px;
+}
+/* End Trophies */
+/* Start Ladder */
+.ladder {
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+}
+.ladder h2 {
+    background-color: var(--heading-bckcolor);
+    color: var(--heading-color);
+    padding: 10px;
+    width: fit-content;
+}
+.ladder p {
+    color: #777;
+    font-size: 18px;
+}
+.ladder span:first-child {
+    color: var(--alternative-color);
+    font-weight: 600;
+}
+.ladder span:last-child {
+    color: #2196f3;
+    font-weight: 600;
+}
+/* End Ladder */
+/* Start Power */
+.power {
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+}
+.power h2 {
+    background-color: var(--heading-bckcolor);
+    color: var(--heading-color);
+    padding: 10px;
+    width: fit-content;
+}
+.power p {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #777;
+}
+.power p:not(:last-child) {
+    border-bottom: 1px solid var(--breakline-color);
+}
+.power .yes {
+    color: var(--alt-color-2);
+    font-weight: 600;
+}
+.power .no {
+    color: var(--alternative-color);
+    font-weight: 600;
+}
+.power {
+
+}
+.power {
+
+}
+/* End Power */
